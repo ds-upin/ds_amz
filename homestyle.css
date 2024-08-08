@@ -149,5 +149,7 @@ img{
     display :absolute;
     top :2000px;
     background-color: black;
+    color : white;
+    font-size: large;
     height : 400px;
 }
