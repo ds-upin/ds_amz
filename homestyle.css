@@ -4,6 +4,11 @@ body{
     text-decoration: none;
     background-color: #cfeaee;
 }
+div{
+    margin :0px;
+    padding :0px;
+    text-decoration: none;
+}
 a{
     text-decoration: none;
     color : white
@@ -129,14 +134,18 @@ img{
     margin-left: 0px;
 }
 #space{
-    height:580px;
+    width: 100%;
+    position:absolute;
+    top:440px;
+    height:auto;
+    
 }
 #mid-block{
     display: flex;
     position: absolute;
-    top : 450px;
+    top :0px;
     width : 100%;
-    height: 830px;
+    height:fit-content;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -144,12 +153,11 @@ img{
     height :390px;
     width: 340px;
     background-color: white;
+    margin: 5px 0px 10px 0px;
 }
 #foot{
-    display :absolute;
-    top :2000px;
     background-color: black;
     color : white;
     font-size: large;
-    height : 400px;
+    width:100%;
 }
