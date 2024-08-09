@@ -93,9 +93,11 @@ img{
 }
 
 #nav-2{
+    display :flex;
     height: 40px;
     width: 100%;
     background-color: #293132;
+    align-items: center;
 }
 #cart{
     height : 40px;
@@ -130,6 +132,11 @@ img{
 .orders2{
     font-size: 15px;
 }
+.nav2-item{
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 1.1em;
+}
 .mid-image{
     margin-left: 0px;
 }
@@ -155,9 +162,32 @@ img{
     background-color: white;
     margin: 5px 0px 10px 0px;
 }
+.box-ani :hover{
+    border: 2px solid red;
+}
 #foot{
     background-color: black;
     color : white;
     font-size: large;
     width:100%;
+}
+#strip{
+    position : absolute;
+    top: 380px;
+    display :flex;
+    justify-content:center;
+    align-items: center;
+    height :40px;
+    width :100%;
+    background-color: #abbcbd;
+    margin-left: 20px;
+    margin-right : 20px;
+}
+#strip-2{
+    color : white;
+    flex-grow: 1;
+    text-align: center;
+    font-size :large;
+    height:auto;
+    width:auto;
 }
