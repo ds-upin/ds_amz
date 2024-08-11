@@ -11,7 +11,7 @@ div{
 }
 a{
     text-decoration: none;
-    color : white
+    color: white;
 }
 #navbar{
     width :100%;
@@ -132,6 +132,13 @@ img{
 .orders2{
     font-size: 15px;
 }
+.bd-hover{
+    border: 2px solid transparent;
+    transition : border 0.5s ease-out;
+}
+.bd-hover:hover {
+    border: 2px solid white;
+}
 .nav2-item{
     padding-left: 5px;
     padding-right: 10px;
@@ -190,4 +197,33 @@ img{
     font-size :large;
     height:auto;
     width:auto;
+}
+div#options{
+    height : 250px;
+    width : 170px;
+    position : absolute;
+    top : 50px;
+    left : 275px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border : 2px solid black;
+    border-radius : 5px;
+    display : none;
+    color : rgb(12, 12, 12);
+    
+}
+.options-item{
+    width : 100%;
+    height : 25px;
+    padding-left : 3px;
+    color : Black;
+    background-color: #e3edee;
+    transition : all 0.3ms;
+}
+.options-item:hover{
+    width : 100%;
+    height : 25px;
+    padding-left : 3px;
+    color : Black;
+    background-color: rgb(67, 193, 215);
 }
